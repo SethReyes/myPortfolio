@@ -11,8 +11,10 @@ class About extends Component {
                     <span className={classes.head}>ABOUT ME</span>
                     <h2 className={classes.heading}>Who Am I?</h2>
                     <div className={classes.About}>
-                        <p> My name is <b>SACHIN MITTAL</b> and I am currently working as Software Developer Engineer at <a target="_blank" href="https://www.springworks.in/"><b>Springworks</b></a>. I completed my degree in Bachelor of Technology in Computer Science and Engineering from Sant Longowal Institute of Engineering and Technology. I am much interested in developing new things which excite me a lot. :)  </p>
-                        <p className={classes.br}>I love exploring new technologies and being a practitioner, I like to stay on top of latest trends. I try to leave every line of code I write more readable, accessible, and modular.
+                        <p> My name is <b>Seth Reyes</b> and I am currently working as Environmental Engineer by day, a Software Engineer by night, and amateur photographer in the spaces between.
+                         I graduated with a Bachelor of Science in Mechanical Engineering as well as from DigitalCraft's Web Development Bootcamp in September 2022. I enjoy developing not only web apps, 
+                         but I really enjoy developing my brain with new challenges and exciting adventures. </p>
+                        <p className={classes.br}>I love exploring new technologies and learning by doing, I like to stay on top of latest trends. I love optimizing every piece of code I write.
                         </p>
                     </div>
                 </ScrollAnimation>

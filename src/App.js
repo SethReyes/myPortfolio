@@ -5,6 +5,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import About from './components/about/About';
 import Education from './components/Education/Education';
 import Interest from './components/skills/Interest'
+import Project from './components/projects/Projects';
 import CarouselImages from './components/carousel/CarouselImages.js'
 
 
@@ -31,6 +32,7 @@ class App extends Component {
             </div>
             <About />
             <Interest />
+            <Project />
             <Education />
           </div>
         </div>

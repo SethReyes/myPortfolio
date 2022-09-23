@@ -13,20 +13,20 @@ class Interest extends Component {
           <div className={classes.Interest}>
             <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
               <div className={classes.web}>
-                <h3>APP Develpoment</h3>
-                <p>I also have knowledge of flutter development and have experience in building android and IOS applications. I also have live app published on Google Play Store. </p>
+                <h3>Languages</h3>
+                <p>I experience with coding in Javascript, Java, Python, and Matlab. </p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
               <div className={classes.app}>
                 <h3>Web Develpoment</h3>
-                <p>I am a full stack web developer(MERN) and build websites using HTML, CSS, Javascript, ReactJs.<br /> I have also good grasp on Node and NoSQL(MongoDb)</p>
+                <p>I am a full stack web developer (MERN) and build websites using HTML, CSS, Javascript, ReactJs, Redux, and MongoDB.</p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
               <div className={classes.other}>
-                <h3>Other's Interest</h3>
-                <p>I also have decent hand in developing website with WordPress.<br />C++, Github are my other fields of interest. Currently, I am investing my free time in Web3.js </p>
+                <h3>Currently Learning</h3>
+                <p>I am currenting learning and practice coding in Solidity, a blockchain language that may very well be the future!</p>
               </div>
             </ScrollAnimation>
           </div>

@@ -17,25 +17,40 @@ class Education extends Component {
                             <div className={classes.row}>
                                 <div className={classes.row_md_12}>
                                     <div className={classes.timeline_centered}>
+                                    <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
+                                            <article className={classes.timeline_entry}>
+                                                <div className={classes.timeline_icon} >
+                                                    <MdSchool />
+                                                </div>
+                                                <div className={classes.label}>
+                                                    <h2 > DigitalCrafts Bootcamp<span> March 2022 - September 2022</span></h2>
+                                                    <p>I joined this bootcamp to get my start into tech! I completed the requirements for the <b>Web Development Bootcamp</b> certification. I learned how to write code primarily in Javascript and developed web apps using the <b>MERN</b> webstack. </p>
+                                                </div>
+                                            </article>
+                                        </ScrollAnimation>
                                         <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
                                             <article className={classes.timeline_entry}>
                                                 <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`} >
                                                     <MdWork />
                                                 </div>
                                                 <div className={classes.label}>
-                                                    <h2 >Experience  <span>July(2021)-Present</span></h2>
-                                                    <p>I am currently working as <b>Software Developer Engineer</b> at <a target="_blank" href="https://www.springworks.in/"><b>Springworks</b></a> <i>(previously Springrole and Springworks is a HR technology startup that is building tools and products to simplify recruiting and help organizations engage and retain their employees)</i> and boosting my professional skills.</p>
+                                                    <h2 >Experience  <span>September 2019 - Present</span></h2>
+                                                    <p>I am currently working as an <b>Environmental Engineer</b> at <a target="_blank" ></a> <b>Trinity Consultants</b> where I help
+                                                    to help bring small businesses to large business the best environmental solutions for their needs. I primarily deal with air permitting and 
+                                                    help clients stay in compliance with the state and the EPA. Here, I always look at ways to optimize or automate quarterly or year over year reports
+                                                    any way possible. Additionally, I've mentored junior associates through their own projects and provided support when needed.</p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
                                         <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
                                             <article className={classes.timeline_entry}>
-                                                <div className={classes.timeline_icon} >
-                                                    <MdSchool />
+                                                <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`} >
+                                                    <MdWork />
                                                 </div>
                                                 <div className={classes.label}>
-                                                    <h2 >Undergraduation at SLIET <span>2017-2021</span></h2>
-                                                    <p>I completed my undergraduation in CSE (Computer Science and Engineering) from <a href='http://sliet.ac.in/'>SLIET</a> with overall 82.71%.</p>
+                                                    <h2 >Experience  <span>September 2018 - September 2019</span></h2>
+                                                    <p>I worked as an <b>Noise Consultant</b> at <a target="_blank" ></a> <b>CSTI Acoustics</b> where I developed my own Excel functions to aid in the 
+                                                    calculations of several complex computations to perform many vibrational and acoustical analysis on large machinery (with unit tests). </p>
                                                 </div>
                                             </article>
                                         </ScrollAnimation>
@@ -45,22 +60,9 @@ class Education extends Component {
                                                     <FaSchool />
                                                 </div>
                                                 <div className={classes.label}>
-                                                    <h2 >Higher Education  <span>2014-2016</span></h2>
-                                                    <p>I have completed my higher education from HKIS with major subjects as Physics,Chemistry & Maths with 85% merit in CBSE board. </p>
+                                                    <h2 >Undergrad at the University of Houston<span>2014-2018</span></h2>
+                                                    <p>I have a <b>Bachelor of Science in Mechanical Engineering</b> and a minor in <b>Math</b>. </p>
                                                 </div>
-                                            </article>
-                                        </ScrollAnimation>
-
-                                        <ScrollAnimation offset={0} animateIn="fadeInLeft" duration={2.4} animateOnce={true} initiallyVisible={true}>
-                                            <article>
-                                                <div className={`${classes.timeline_icon} ${classes.timeline_icon_4}`} >
-                                                    <MdWork />
-                                                </div>
-                                                <div className={classes.label}>
-                                                    <h2 >Internship</h2>
-                                                    <p>Completed one month Internship in React Js with Internity Foundation</p>
-                                                </div>
-                                                <div className={classes.timeline_entry_inner}><div className={classes.timeline_icon_3 || classes.color_none}></div></div>
                                             </article>
                                         </ScrollAnimation>
                                     </div>
